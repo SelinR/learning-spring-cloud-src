@@ -4,3 +4,8 @@ pluginManagement {
 	}
 }
 rootProject.name = 'learning-spring-cloud-src'
+include 'discovery'
+include 'gateway'
+include 'book-service'
+include 'rating'
+

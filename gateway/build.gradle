@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.epam.learning-spring-cloud'
+version '0.0.1-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation 'org.springframework.cloud:spring-cloud-starter-zuul:1.4.6.RELEASE'
+    implementation 'org.springframework.cloud:spring-cloud-starter-eureka:1.4.6.RELEASE'
+    implementation 'org.springframework.cloud:spring-cloud-starter-config:2.0.3.RELEASE'
+}
