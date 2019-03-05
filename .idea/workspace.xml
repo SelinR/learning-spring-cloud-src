@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a31a4b99-f1ca-450d-a357-9b7a53f02139" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/GatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-service/src/main/java/BookServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-service/src/main/java/POJO/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rating/src/main/java/POJO/Rating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rating/src/main/java/RatingApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discover/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/discover/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discover/src/main/java/discovery/DiscoveryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/discover/src/main/java/discover/DiscoverApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discover/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discover/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rating/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/rating/build.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -85,23 +82,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="discover" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="discover" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="discover" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -109,57 +90,133 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="discover.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../application-config/discover.properties">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="221">
+              <caret line="13" column="22" selection-start-line="12" selection-end-line="13" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/discover/src/main/resources/bootstrap.properties">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-service/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="33" selection-start-column="33" selection-end-column="33" />
+            <state relative-caret-position="544">
+              <caret line="32" selection-start-line="27" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/discover/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="DiscoverApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/discover/src/main/java/discover/DiscoverApplication.java">
+      <file leaf-file-name="BookServiceApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-service/src/main/java/BookServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="340">
+              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="book-serviece.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../application-config/book-serviece.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RatingApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rating/src/main/java/RatingApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rating.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rating/src/main/java/POJO/Rating.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+              <folding>
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/discover/build.gradle">
+        <entry file="file://$PROJECT_DIR$/rating/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="459">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway/build.gradle">
+      <file leaf-file-name="rating.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../application-config/rating.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="85">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-service/src/main/resources/bootstrap.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book-service/src/main/java/POJO/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -349,6 +406,21 @@
                 <option name="name" value="test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the dependency management declared in root project 'book-service'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/book-service" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/book-service" />
+                <option name="name" value="bootRepackage" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run the project with support for auto-detecting main class and reloading static resources" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/book-service" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Compiles main Java source." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/book-service" />
                 <option name="name" value="compileJava" />
@@ -397,6 +469,10 @@
                 <option name="description" value="Assembles and tests this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/book-service" />
                 <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/book-service" />
+                <option name="name" value="findMainClass" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
@@ -571,156 +647,6 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/discovery">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':discovery'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':discovery'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':discovery'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':discovery'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':discovery'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':discovery'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependency management declared in project ':discovery'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="dependencyManagement" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="bootRepackage" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Run the project with support for auto-detecting main class and reloading static resources" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="bootRun" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':discovery'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':discovery'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="findMainClass" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':discovery'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/discovery" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/gateway">
           <value>
             <list>
@@ -800,6 +726,21 @@
                 <option name="name" value="test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the dependency management declared in root project 'gateway'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/gateway" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/gateway" />
+                <option name="name" value="bootRepackage" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run the project with support for auto-detecting main class and reloading static resources" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/gateway" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Compiles main Java source." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/gateway" />
                 <option name="name" value="compileJava" />
@@ -848,6 +789,10 @@
                 <option name="description" value="Assembles and tests this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/gateway" />
                 <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/gateway" />
+                <option name="name" value="findMainClass" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
@@ -941,6 +886,21 @@
                 <option name="name" value="test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the dependency management declared in root project 'rating'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rating" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rating" />
+                <option name="name" value="bootRepackage" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run the project with support for auto-detecting main class and reloading static resources" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rating" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Compiles main Java source." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rating" />
                 <option name="name" value="compileJava" />
@@ -991,6 +951,10 @@
                 <option name="name" value="build" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rating" />
+                <option name="name" value="findMainClass" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/rating" />
                 <option name="name" value="buildNeeded" />
@@ -1008,9 +972,9 @@
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/book-service" value="6205094496753" />
+        <entry key="$PROJECT_DIR$/book-service" value="6205605174578" />
         <entry key="$PROJECT_DIR$/book-service/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/book-service/build.gradle" value="4038161105" />
+        <entry key="$PROJECT_DIR$/book-service/build.gradle" value="1952272037" />
         <entry key="$PROJECT_DIR$/book-service/gradle/wrapper/gradle-wrapper.properties" value="261915471" />
         <entry key="$PROJECT_DIR$/book-service/settings.gradle" value="708768885" />
         <entry key="$PROJECT_DIR$/build.gradle" value="3615317795" />
@@ -1020,15 +984,15 @@
         <entry key="$PROJECT_DIR$/discover/gradle/wrapper/gradle-wrapper.properties" value="261915471" />
         <entry key="$PROJECT_DIR$/discover/settings.gradle" value="3204675638" />
         <entry key="$PROJECT_DIR$/discovery/build.gradle" value="3909533334" />
-        <entry key="$PROJECT_DIR$/gateway" value="6205095894284" />
+        <entry key="$PROJECT_DIR$/gateway" value="6205603891429" />
         <entry key="$PROJECT_DIR$/gateway/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/gateway/build.gradle" value="3647370298" />
+        <entry key="$PROJECT_DIR$/gateway/build.gradle" value="3580881224" />
         <entry key="$PROJECT_DIR$/gateway/gradle/wrapper/gradle-wrapper.properties" value="261915471" />
         <entry key="$PROJECT_DIR$/gateway/settings.gradle" value="2196041229" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2696189834" />
-        <entry key="$PROJECT_DIR$/rating" value="6205093985679" />
+        <entry key="$PROJECT_DIR$/rating" value="6205605183646" />
         <entry key="$PROJECT_DIR$/rating/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/rating/build.gradle" value="3615317795" />
+        <entry key="$PROJECT_DIR$/rating/build.gradle" value="1952272037" />
         <entry key="$PROJECT_DIR$/rating/gradle/wrapper/gradle-wrapper.properties" value="261915471" />
         <entry key="$PROJECT_DIR$/rating/settings.gradle" value="1430188812" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="408883976" />
@@ -1044,6 +1008,15 @@
                   <entry key="$PROJECT_DIR$/book-service">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.5.RELEASE/36eb3f9798579880bb4213c28d8adefed7ac8a03/spring-boot-gradle-plugin-1.5.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.5.RELEASE/4f6998dbaece612c4300510a135928015696b61e/spring-boot-loader-tools-1.5.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.3.RELEASE/c7fc988680e19cef9bf91de0c39b891e4c8dca2d/dependency-management-plugin-1.0.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.10.RELEASE/db1462df62dbedad7244da30ec471390660271c0/spring-core-4.3.10.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+                          </list>
+                        </option>
                         <option name="path" value="$PROJECT_DIR$/book-service" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
@@ -1257,6 +1230,15 @@
                   <entry key="$PROJECT_DIR$/gateway">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.5.RELEASE/36eb3f9798579880bb4213c28d8adefed7ac8a03/spring-boot-gradle-plugin-1.5.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.5.RELEASE/4f6998dbaece612c4300510a135928015696b61e/spring-boot-loader-tools-1.5.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.3.RELEASE/c7fc988680e19cef9bf91de0c39b891e4c8dca2d/dependency-management-plugin-1.0.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.10.RELEASE/db1462df62dbedad7244da30ec471390660271c0/spring-core-4.3.10.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+                          </list>
+                        </option>
                         <option name="path" value="$PROJECT_DIR$/gateway" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
@@ -1359,6 +1341,15 @@
                   <entry key="$PROJECT_DIR$/rating">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.5.RELEASE/36eb3f9798579880bb4213c28d8adefed7ac8a03/spring-boot-gradle-plugin-1.5.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.5.RELEASE/4f6998dbaece612c4300510a135928015696b61e/spring-boot-loader-tools-1.5.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.3.RELEASE/c7fc988680e19cef9bf91de0c39b891e4c8dca2d/dependency-management-plugin-1.0.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.10.RELEASE/db1462df62dbedad7244da30ec471390660271c0/spring-core-4.3.10.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+                          </list>
+                        </option>
                         <option name="path" value="$PROJECT_DIR$/rating" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
@@ -1468,16 +1459,26 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/discovery/build.gradle" />
-        <option value="$PROJECT_DIR$/book-service/build.gradle" />
         <option value="$PROJECT_DIR$/../application-config/gateway.properties" />
-        <option value="$PROJECT_DIR$/gateway/build.gradle" />
         <option value="$PROJECT_DIR$/gateway/src/main/java/GatewayApplication.java" />
         <option value="$PROJECT_DIR$/discover/src/main/java/discovery/DiscoverApplication.java" />
         <option value="$PROJECT_DIR$/discover/src/main/java/discover/DiscoverApplication.java" />
-        <option value="$PROJECT_DIR$/discover/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/../application-config/discover.properties" />
         <option value="$PROJECT_DIR$/discover/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/discover/build.gradle" />
+        <option value="$PROJECT_DIR$/discover/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/gateway/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/gateway/build.gradle" />
+        <option value="$PROJECT_DIR$/book-service/src/main/java/BookServiceApplication.java" />
+        <option value="$PROJECT_DIR$/book-service/src/main/java/POJO/Book.java" />
+        <option value="$PROJECT_DIR$/book-service/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/../application-config/book-serviece.properties" />
+        <option value="$PROJECT_DIR$/book-service/build.gradle" />
+        <option value="$PROJECT_DIR$/rating/build.gradle" />
+        <option value="$PROJECT_DIR$/rating/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/../application-config/rating.properties" />
+        <option value="$PROJECT_DIR$/rating/src/main/java/POJO/Rating.java" />
+        <option value="$PROJECT_DIR$/rating/src/main/java/RatingApplication.java" />
       </list>
     </option>
   </component>
@@ -1494,7 +1495,7 @@
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
-    <option name="height" value="1088" />
+    <option name="height" value="1090" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -1502,7 +1503,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -1510,48 +1510,90 @@
           <expand>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="discover" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="book-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="discover" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gateway" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gateway" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="discover" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gateway" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="discover" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gateway" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="discover" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gateway" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gateway" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="rating" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rating" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rating" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rating" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rating" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="POJO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rating" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/rating" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4091954" />
   </component>
@@ -1631,9 +1673,17 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
+    <configuration name="BookServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="book-service_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="BookServiceApplication" />
+    </configuration>
     <configuration name="DiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="discover_main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="discover.DiscoverApplication" />
+    </configuration>
+    <configuration name="GatewayApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="GatewayApplication" />
     </configuration>
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gateway_main" />
@@ -1666,6 +1716,8 @@
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Gradle.discover [build]" />
       <item itemvalue="Gradle.discover [bootRun]" />
+      <item itemvalue="Spring Boot.GatewayApplication (1)" />
+      <item itemvalue="Spring Boot.BookServiceApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -1684,50 +1736,86 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551271840967</updated>
-      <workItem from="1551271846538" duration="8098000" />
+      <workItem from="1551271846538" duration="8721000" />
+      <workItem from="1551782389201" duration="3739000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8098000" />
+    <option name="totallyTimeSpent" value="12460000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="934" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="934" extended-state="7" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5007215" side_tool="true" weight="0.32893" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info anchor="bottom" id="Build" weight="0.3283208" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007215" side_tool="true" weight="0.32893" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3283208" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6378446" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.4992785" weight="0.31203008" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23221476" />
-      <window_info anchor="right" id="Bean Validation" />
-      <window_info id="Web" side_tool="true" />
-      <window_info anchor="right" x="515" y="174" width="506" height="572" id="Gradle" weight="0.32885906" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32957393" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6378446" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4992785" weight="0.31203008" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23557048" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" x="515" y="174" width="506" height="572" id="Gradle" order="3" weight="0.32885906" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Build" order="0" weight="0.3283208" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="Spring" order="1" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.6378446" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4992785" visible="true" weight="0.31203008" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5007215" side_tool="true" weight="0.32893" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32957393" />
+      <window_info anchor="right" id="Maven Projects" order="2" />
+      <window_info anchor="right" x="515" y="174" width="506" height="572" id="Gradle" order="3" weight="0.32885906" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.23221476" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1736,44 +1824,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/book-service/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/discovery/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gateway/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/discovery/settings.gradle" />
-    <entry file="file://$PROJECT_DIR$/discovery/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/ndiscovery/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/book-service/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rating/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../application-config/gateway.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -1784,42 +1838,40 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+        </state>
+      </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../application-config/gateway.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-service/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery/build.gradle" />
     <entry file="file://$PROJECT_DIR$/gateway/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/discover/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/discover/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/discover/src/main/java/discover/DiscoverApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery/settings.gradle" />
+    <entry file="file://$PROJECT_DIR$/discovery/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/ndiscovery/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/discover/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/discover/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1827,10 +1879,167 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/discover/src/main/java/discover/DiscoverApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../application-config/discover.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../application-config/gateway.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/GatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discover/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" selection-start-line="27" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-service/src/main/java/POJO/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-service/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-service/src/main/java/BookServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../application-config/book-serviece.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="22" selection-start-line="12" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-service/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" selection-start-line="27" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../application-config/rating.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/src/main/java/POJO/Rating.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating/src/main/java/RatingApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1854,7 +2063,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1889,11 +2098,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>rating</last-edited>
+          <last-edited>book-service_main|book-service</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.4091954" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
